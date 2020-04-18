@@ -16,6 +16,10 @@ public class Home : MonoBehaviour
 		Camera.main.GetComponentInChildren<Animator>().SetTrigger(faderFadeOutTrigger);
 		Invoke("LoadNextScene", faderDuration);
 	}
+	public void QuitButtonDown()
+	{
+		// TODO
+	}
 
 
 
