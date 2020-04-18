@@ -47,6 +47,9 @@ public class SpriteButton : MonoBehaviour
 	
 	[Space]
 	public UnityEvent onClick;
+	public UnityEvent onMouseEnter;
+	public UnityEvent onMouseExit;
+
 
 
 	ButtonState state = ButtonState.Ready;
@@ -94,10 +97,12 @@ public class SpriteButton : MonoBehaviour
 	private void OnMouseEnter()
 	{
 		SetVisualState(state = ButtonState.Hover, interactable);
+		onMouseEnter.Invoke();
 	}
 	private void OnMouseExit()
 	{
 		SetVisualState(state = ButtonState.Ready, interactable);
+		onMouseExit.Invoke();
 	}
 	private void OnMouseDown()
 	{
