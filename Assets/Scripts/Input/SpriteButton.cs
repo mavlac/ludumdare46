@@ -97,12 +97,12 @@ public class SpriteButton : MonoBehaviour
 	private void OnMouseEnter()
 	{
 		SetVisualState(state = ButtonState.Hover, interactable);
-		onMouseEnter.Invoke();
+		if (Interactable) onMouseEnter.Invoke();
 	}
 	private void OnMouseExit()
 	{
 		SetVisualState(state = ButtonState.Ready, interactable);
-		onMouseExit.Invoke();
+		if (Interactable) onMouseExit.Invoke();
 	}
 	private void OnMouseDown()
 	{

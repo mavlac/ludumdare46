@@ -104,8 +104,14 @@ MonoBehaviour:
   activeSprite: {fileID: 21300000, guid: 377a946cef03eef43a5a67acb3ab5da1, type: 3}
   disabledTint: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   disabledSprite: {fileID: 0}
-  tintFadeDuration: 0.15
+  tintFadeDuration: 0.1
   onClick:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onMouseExit:
     m_PersistentCalls:
       m_Calls: []
 --- !u!58 &6474367011978794365
