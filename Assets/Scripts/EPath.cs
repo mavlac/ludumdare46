@@ -59,6 +59,8 @@ public class EPath : MonoBehaviour
 	public void FindOwnEdgeChildren()
 	{
 		edges = GetComponentsInChildren<EPathEdge>().ToList();
+#if UNITY_EDITOR
 		EditorUtility.SetDirty(this);
+#endif
 	}
 }
