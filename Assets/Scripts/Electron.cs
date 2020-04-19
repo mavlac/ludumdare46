@@ -35,10 +35,12 @@ public class Electron : MonoBehaviour
 
 		// Fade In
 		spriteRenderer.color = defaultColor.SetAlpha(0f);
-		spriteRenderer.DOFade(defaultColor.a, 0.15f).OnComplete(() =>
+		spriteRenderer.DOFade(defaultColor.a, 0.15f);
+		travel = true;
+		/*spriteRenderer.DOFade(defaultColor.a, 0.15f).OnComplete(() =>
 		{
 			travel = true;
-		});
+		});*/
 	}
 
 

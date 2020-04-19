@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="display.svg"
-   inkscape:export-filename="C:\Users\vm111204\Dev\_Personal\LD46\Assets\Sprites\display.png"
+   inkscape:export-filename="C:\Users\vm111204\Dev\_Personal\LD46\Assets\Sprites\Components\display.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="346.94398"
+     inkscape:cx="208.01541"
      inkscape:cy="24.393217"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -49,7 +49,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,7 @@
      id="layer1"
      transform="translate(0,-196.45832)">
     <rect
-       style="fill:#d0c8b9;fill-opacity:1;stroke:none;stroke-width:0.34611946"
+       style="fill:#cac6bf;fill-opacity:1;stroke:none;stroke-width:0.34611946"
        id="rect4531"
        width="96.717987"
        height="88.446434"

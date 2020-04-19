@@ -16,7 +16,7 @@
    id="svg4539"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="button.svg"
-   inkscape:export-filename="C:\Users\vm111204\Dev\_Personal\LD46\Assets\Sprites\button.png"
+   inkscape:export-filename="C:\Users\vm111204\Dev\_Personal\LD46\Assets\Sprites\Components\button.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.992531"
-     inkscape:cx="33.95748"
-     inkscape:cy="28.054508"
+     inkscape:cx="26.077575"
+     inkscape:cy="20.883378"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,43 +61,43 @@
      id="layer1"
      transform="translate(0,-280.06665)">
     <g
-       id="g5111"
-       transform="translate(0.28159383)">
+       id="g827-7"
+       transform="matrix(0.97811103,0,0,1,0.18532641,0.08560722)">
       <rect
          y="279.8551"
-         x="5.8985229"
+         x="6.1801167"
+         height="1.4274305"
+         width="1.263635"
+         id="rect5088-45"
+         style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
+      <rect
+         y="279.89395"
+         x="9.4895821"
+         height="1.4274305"
+         width="1.263635"
+         id="rect5088-4-8"
+         style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
+    </g>
+    <g
+       id="g827"
+       transform="matrix(0.97811103,0,0,1,0.18532641,15.875004)">
+      <rect
+         y="279.8551"
+         x="6.1801167"
          height="1.4274305"
          width="1.263635"
          id="rect5088"
          style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
       <rect
          y="279.89395"
-         x="9.2079878"
+         x="9.4895821"
          height="1.4274305"
          width="1.263635"
          id="rect5088-4"
          style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
     </g>
-    <g
-       id="g5111-0"
-       transform="translate(0.28159383,15.856887)">
-      <rect
-         y="279.8551"
-         x="5.8985229"
-         height="1.4274305"
-         width="1.263635"
-         id="rect5088-2"
-         style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
-      <rect
-         y="279.89395"
-         x="9.2079878"
-         height="1.4274305"
-         width="1.263635"
-         id="rect5088-4-5"
-         style="fill:#cbb170;fill-opacity:1;stroke:none;stroke-width:0.26458332" />
-    </g>
     <rect
-       style="fill:#d0c8b9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="fill:#cac6bf;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="rect5084"
        width="14.758009"
        height="14.758009"
@@ -105,14 +105,14 @@
        y="281.15433"
        rx="1.1999992" />
     <rect
-       style="fill:#d0c8b9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       style="fill:#cac6bf;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="rect5086"
        width="16.28685"
        height="2.2464623"
        x="0.32324168"
        y="287.4101" />
     <circle
-       style="fill:#2a2a2a;fill-opacity:0.87159532;stroke:none;stroke-width:0.26458332"
+       style="fill:#3d3d3c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="path5090"
        cx="8.4666662"
        cy="288.53333"

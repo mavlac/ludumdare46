@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Home : MonoBehaviour
 {
@@ -31,7 +32,8 @@ public class Home : MonoBehaviour
 	{
 		//musicAudioSource.StopWithFadeOut(faderDuration * 0.75f, this);
 		musicAudioSource.Stop();
-		commonAudio.PlayOneShot(buttonClickClip);
+		commonAudio.clip = buttonClickClip;
+		commonAudio.PlayDelayed(0.05f);
 		
 		Camera.main.GetComponentInChildren<Animator>().SetTrigger(faderFadeOutTrigger);
 		Invoke("LoadNextScene", faderDuration);
@@ -41,7 +43,8 @@ public class Home : MonoBehaviour
 #if !UNITY_WEBGL
 		//musicAudioSource.StopWithFadeOut(faderDuration * 0.75f, this);
 		musicAudioSource.Stop();
-		commonAudio.PlayOneShot(buttonClickClip);
+		commonAudio.clip = buttonClickClip;
+		commonAudio.PlayDelayed(0.05f);
 		
 		Camera.main.GetComponentInChildren<Animator>().SetTrigger(faderFadeOutTrigger);
 		Invoke("Exit", faderDuration);
