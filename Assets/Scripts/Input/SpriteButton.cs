@@ -46,6 +46,7 @@ public class SpriteButton : MonoBehaviour
 	public float tintFadeDuration = 0.15f;
 	
 	[Space]
+	// TODO make event rollup as in DraggableEditor.cs
 	public UnityEvent onClick;
 	public UnityEvent onMouseEnter;
 	public UnityEvent onMouseExit;

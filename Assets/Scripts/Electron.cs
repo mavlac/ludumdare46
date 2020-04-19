@@ -10,7 +10,9 @@ public class Electron : MonoBehaviour
 
 	[Space]
 	public SpriteRenderer spriteRenderer;
-	Color defaultColor;
+	public SpriteRenderer glowRenderer;
+	Color defaultSpriteColor;
+	Color defaultGlowColor;
 
 
 	private List<EPathEdge> edgesToFollow;
@@ -23,7 +25,8 @@ public class Electron : MonoBehaviour
 
 	private void Awake()
 	{
-		defaultColor = spriteRenderer.color;
+		defaultSpriteColor = spriteRenderer.color;
+		defaultGlowColor = glowRenderer.color;
 	}
 
 
@@ -34,8 +37,10 @@ public class Electron : MonoBehaviour
 		SetNextDestination(edgesToFollow[edgeIndex]);
 
 		// Fade In
-		spriteRenderer.color = defaultColor.SetAlpha(0f);
-		spriteRenderer.DOFade(defaultColor.a, 0.15f);
+		glowRenderer.color = defaultGlowColor.SetAlpha(0f);
+		glowRenderer.DOFade(defaultGlowColor.a, 0.15f);
+		spriteRenderer.color = defaultSpriteColor.SetAlpha(0f);
+		spriteRenderer.DOFade(defaultSpriteColor.a, 0.15f);
 		travel = true;
 		/*spriteRenderer.DOFade(defaultColor.a, 0.15f).OnComplete(() =>
 		{
@@ -68,6 +73,7 @@ public class Electron : MonoBehaviour
 		{
 			// Journey finished
 			travel = false;
+			glowRenderer.DOFade(0f, 0.25f);
 			spriteRenderer.DOFade(0f, 0.25f).OnComplete(() =>
 			{
 				Destroy(this.gameObject);
