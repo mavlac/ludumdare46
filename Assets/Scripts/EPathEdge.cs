@@ -22,8 +22,8 @@ public class EPathEdge : MonoBehaviour
 		if (onBackSide)
 		{
 			lineRenderer.enabled = false;
-			start.endingType = EPathNode.NodeEndingType.Tunnel;
-			end.endingType = EPathNode.NodeEndingType.Tunnel;
+			if (start.endingType == EPathNode.NodeEndingType.None) start.endingType = EPathNode.NodeEndingType.Tunnel;
+			if (end.endingType == EPathNode.NodeEndingType.None) end.endingType = EPathNode.NodeEndingType.Tunnel;
 			start.UpdateEndingTypeVisual();
 			end.UpdateEndingTypeVisual();
 		}
